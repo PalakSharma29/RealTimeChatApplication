@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://c4.wallpaperflare.com/wallpaper/506/861/136/light-pink-wallpaper-preview.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: #F8F8F8;
+    font-family: 'Roboto', sans-serif; */
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+}
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    /* background: #fff; */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 2px solid black;
+    padding: 10px;
+}
+.brand {
+    padding: 7px;
+    /* background: #f1f1f1; */
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    /* border: 2px solid black; */
+
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #e6d5d5;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 1000px;
+    position: relative;
+}
+.incoming {
+    background: mediumorchid;
+    color: #ffffff;  
+    margin-right: auto;
+}
+.outgoing {
+    background:#350961;
+    color: #fdfdff;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
